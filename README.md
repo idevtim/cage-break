@@ -11,16 +11,21 @@ A cozy iOS brick-breaker with an animal-rescue heart. Aim, fire a salvo of balls
 ### iPhone
 
 <p align="center">
-  <img src="marketing/iphone-1.png" alt="Cage Break on iPhone" width="22%" />
-  <img src="marketing/iphone-2.png" alt="Cage Break on iPhone" width="22%" />
-  <img src="marketing/iphone-3.png" alt="Cage Break on iPhone" width="22%" />
-  <img src="marketing/iphone-4.png" alt="Cage Break on iPhone" width="22%" />
+  <img src="marketing/iphone-1.png" alt="Cage Break menu — a new world every run" width="19%" />
+  <img src="marketing/iphone-2.png" alt="Catch the Frenzy orb power-up" width="19%" />
+  <img src="marketing/iphone-3.png" alt="Cage Break gameplay — aim, fire, set them free" width="19%" />
+  <img src="marketing/iphone-4.png" alt="Choose your difficulty" width="19%" />
+  <img src="marketing/iphone-5.png" alt="How rescue works" width="19%" />
 </p>
 
 ### iPad
 
 <p align="center">
-  <img src="marketing/ipad-1.png" alt="Cage Break on iPad" width="60%" />
+  <img src="marketing/ipad-1.png" alt="Cage Break menu on iPad" width="19%" />
+  <img src="marketing/ipad-2.png" alt="Catch the Frenzy orb power-up on iPad" width="19%" />
+  <img src="marketing/ipad-3.png" alt="Cage Break gameplay on iPad" width="19%" />
+  <img src="marketing/ipad-4.png" alt="Choose your difficulty on iPad" width="19%" />
+  <img src="marketing/ipad-5.png" alt="How rescue works on iPad" width="19%" />
 </p>
 
 ## How to Play
