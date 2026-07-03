@@ -47,10 +47,12 @@
       <stop offset="55%" stop-color="#6e2a0f" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#5a240e" stop-opacity="0.78"/>
     </linearGradient>
-    <radialGradient id="fireGlow" cx="50%" cy="100%" r="80%">
-      <stop offset="0%" stop-color="#ff9628" stop-opacity="0.6"/>
-      <stop offset="70%" stop-color="#ff5a14" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="fireGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7a1e" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ff8422" stop-opacity="0.08"/>
+      <stop offset="75%" stop-color="#ff8a24" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ff9628" stop-opacity="0.52"/>
+    </linearGradient>
     <linearGradient id="flameBack" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffb43a"/>
       <stop offset="100%" stop-color="#e0431a"/>
@@ -127,66 +129,66 @@
 
   <!-- Fire line (the Rainforest danger) -->
   <g transform="translate(546 0)">
-    <rect x="0" y="190" width="254" height="46" fill="url(#fireBand)"/>
-    <ellipse cx="127.0" cy="236" rx="157.48" ry="52" fill="url(#fireGlow)"/>
-    <path transform="translate(0 190)" d="M0 46 L0 41.4 C0.847 29.133 7.338 12.267 9.313 3.067 C20.884 12.267 27.376 29.133 28.222 41.4 C29.069 35.512 35.56 27.416 47.131 23 C49.107 27.416 55.598 35.512 56.444 41.4 C57.291 30.851 63.782 16.345 65.758 8.433 C77.329 16.345 83.82 30.851 84.667 41.4 C85.513 36.984 92.004 30.912 103.576 27.6 C105.551 30.912 112.042 36.984 112.889 41.4 C113.736 27.907 120.227 9.353 122.202 -0.767 C133.773 9.353 140.264 27.907 141.111 41.4 C141.958 34.531 148.449 25.085 160.02 19.933 C161.996 25.085 168.487 34.531 169.333 41.4 C170.18 29.869 176.671 14.015 178.647 5.367 C190.218 14.015 196.709 29.869 197.556 41.4 C198.402 36.003 204.893 28.581 216.464 24.533 C218.44 28.581 224.931 36.003 225.778 41.4 C226.624 31.832 233.116 18.676 235.091 11.5 C246.662 18.676 253.153 31.832 254 41.4 L254 46 Z" fill="url(#flameBack)">
+    <rect x="0" y="164" width="254" height="42" fill="url(#fireBand)"/>
+    <rect x="0" y="132" width="254" height="74" fill="url(#fireGlow)"/>
+    <path transform="translate(0 168)" d="M0 38 L0 34.2 C0.847 24.067 7.338 10.133 9.313 2.533 C20.884 10.133 27.376 24.067 28.222 34.2 C29.069 29.336 35.56 22.648 47.131 19 C49.107 22.648 55.598 29.336 56.444 34.2 C57.291 25.485 63.782 13.503 65.758 6.967 C77.329 13.503 83.82 25.485 84.667 34.2 C85.513 30.552 92.004 25.536 103.576 22.8 C105.551 25.536 112.042 30.552 112.889 34.2 C113.736 23.053 120.227 7.727 122.202 -0.633 C133.773 7.727 140.264 23.053 141.111 34.2 C141.958 28.525 148.449 20.723 160.02 16.467 C161.996 20.723 168.487 28.525 169.333 34.2 C170.18 24.675 176.671 11.577 178.647 4.433 C190.218 11.577 196.709 24.675 197.556 34.2 C198.402 29.741 204.893 23.611 216.464 20.267 C218.44 23.611 224.931 29.741 225.778 34.2 C226.624 26.296 233.116 15.428 235.091 9.5 C246.662 15.428 253.153 26.296 254 34.2 L254 38 Z" fill="url(#flameBack)">
       <animate attributeName="opacity" values="0.85;1;0.85" dur="0.8s" repeatCount="indefinite"/>
     </path>
-    <path transform="translate(0 202)" d="M0 34 L0 30.6 C0.586 23.419 5.08 13.546 6.448 8.16 C14.458 13.546 18.952 23.419 19.538 30.6 C20.125 26.944 24.618 21.918 32.629 19.176 C33.997 21.918 38.491 26.944 39.077 30.6 C39.663 24.464 44.157 16.026 45.525 11.424 C53.535 16.026 58.029 24.464 58.615 30.6 C59.202 27.728 63.695 23.778 71.706 21.624 C73.074 23.778 77.568 27.728 78.154 30.6 C78.74 25.508 83.234 18.507 84.602 14.688 C92.612 18.507 97.106 25.508 97.692 30.6 C98.278 26.683 102.772 21.298 110.783 18.36 C112.151 21.298 116.645 26.683 117.231 30.6 C117.817 24.072 122.311 15.096 123.678 10.2 C131.689 15.096 136.183 24.072 136.769 30.6 C137.355 27.467 141.849 23.158 149.86 20.808 C151.228 23.158 155.722 27.467 156.308 30.6 C156.894 24.986 161.388 17.267 162.755 13.056 C170.766 17.267 175.26 24.986 175.846 30.6 C176.432 28.25 180.926 25.019 188.937 23.256 C190.305 25.019 194.798 28.25 195.385 30.6 C195.971 23.419 200.465 13.546 201.832 8.16 C209.843 13.546 214.337 23.419 214.923 30.6 C215.509 26.944 220.003 21.918 228.014 19.176 C229.382 21.918 233.875 26.944 234.462 30.6 C235.048 24.464 239.542 16.026 240.909 11.424 C248.92 16.026 253.414 24.464 254 30.6 L254 34 Z" fill="url(#flameFront)">
+    <path transform="translate(0 178)" d="M0 28 L0 25.2 C0.586 19.286 5.08 11.155 6.448 6.72 C14.458 11.155 18.952 19.286 19.538 25.2 C20.125 22.189 24.618 18.05 32.629 15.792 C33.997 18.05 38.491 22.189 39.077 25.2 C39.663 20.147 44.157 13.198 45.525 9.408 C53.535 13.198 58.029 20.147 58.615 25.2 C59.202 22.835 63.695 19.582 71.706 17.808 C73.074 19.582 77.568 22.835 78.154 25.2 C78.74 21.007 83.234 15.241 84.602 12.096 C92.612 15.241 97.106 21.007 97.692 25.2 C98.278 21.974 102.772 17.539 110.783 15.12 C112.151 17.539 116.645 21.974 117.231 25.2 C117.817 19.824 122.311 12.432 123.678 8.4 C131.689 12.432 136.183 19.824 136.769 25.2 C137.355 22.62 141.849 19.071 149.86 17.136 C151.228 19.071 155.722 22.62 156.308 25.2 C156.894 20.577 161.388 14.22 162.755 10.752 C170.766 14.22 175.26 20.577 175.846 25.2 C176.432 23.265 180.926 20.604 188.937 19.152 C190.305 20.604 194.798 23.265 195.385 25.2 C195.971 19.286 200.465 11.155 201.832 6.72 C209.843 11.155 214.337 19.286 214.923 25.2 C215.509 22.189 220.003 18.05 228.014 15.792 C229.382 18.05 233.875 22.189 234.462 25.2 C235.048 20.147 239.542 13.198 240.909 9.408 C248.92 13.198 253.414 20.147 254 25.2 L254 28 Z" fill="url(#flameFront)">
       <animate attributeName="opacity" values="0.6;1;0.6" dur="0.55s" repeatCount="indefinite"/>
     </path>
     <!-- rising embers -->
     <g fill="#ffcf6a">
-      <circle cx="55.88" cy="236" r="2">
-        <animate attributeName="cy" values="236;190;236" dur="2.4s" begin="0.2s" repeatCount="indefinite"/>
+      <circle cx="55.88" cy="206" r="2">
+        <animate attributeName="cy" values="206;166;206" dur="2.4s" begin="0.2s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.95;0" dur="2.4s" begin="0.2s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="127.0" cy="236" r="1.6">
-        <animate attributeName="cy" values="236;188;236" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
+      <circle cx="127.0" cy="206" r="1.6">
+        <animate attributeName="cy" values="206;164;206" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.95;0" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="198.12" cy="236" r="2">
-        <animate attributeName="cy" values="236;192;236" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+      <circle cx="198.12" cy="206" r="2">
+        <animate attributeName="cy" values="206;168;206" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;0.95;0" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
       </circle>
     </g>
     <!-- FIRE LINE tag -->
-    <g transform="translate(6 224)">
-      <rect x="0" y="0" width="66" height="18" rx="6" fill="#c45416" fill-opacity="0.9" stroke="#ffbe6e" stroke-opacity="0.7" stroke-width="1"/>
+    <g transform="translate(6 194)">
+      <rect x="0" y="0" width="82" height="18" rx="6" fill="#c45416" fill-opacity="0.9" stroke="#ffbe6e" stroke-opacity="0.7" stroke-width="1"/>
       <path d="M11 3 Q15 7 15 10 A4 4 0 1 1 7 10 Q7 7 11 3 Z" fill="#ff9a2e"/>
-      <text x="21" y="13" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="9.5" font-weight="700" fill="#fff5e6" letter-spacing="0.5">FIRE LINE</text>
+      <text x="22" y="13" textLength="52" lengthAdjust="spacingAndGlyphs" font-family="'Trebuchet MS','Segoe UI',Verdana,sans-serif" font-size="9.5" font-weight="700" fill="#fff5e6">FIRE LINE</text>
     </g>
   </g>
 
-  <!-- Launcher + rising ball salvo (warm spark) -->
+  <!-- Launcher on the floor (below the fire) + rising ball salvo (warm spark) -->
   <g>
-    <circle cx="675" cy="228" r="20" fill="#ffb559" fill-opacity="0.30"/>
-    <circle cx="675" cy="228" r="9" fill="#fff2c6"/>
+    <circle cx="675" cy="224" r="20" fill="#ffb559" fill-opacity="0.30"/>
+    <circle cx="675" cy="224" r="9" fill="#fff2c6"/>
     <g>
       <!-- base cx/cy = a fanned mid-flight pose (what static renderers show); the animation
            still cycles from the launcher and browsers override the base on the first frame. -->
-      <circle cx="632" cy="150" r="12" fill="url(#ballGlow)">
-        <animate attributeName="cy" values="228;118;228" dur="3.2s" begin="-0.5s" repeatCount="indefinite"/>
+      <circle cx="632" cy="128" r="12" fill="url(#ballGlow)">
+        <animate attributeName="cy" values="224;112;224" dur="3.2s" begin="-0.5s" repeatCount="indefinite"/>
         <animate attributeName="cx" values="675;632;675" dur="3.2s" begin="-0.5s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="632" cy="150" r="6" fill="url(#ballCore)">
-        <animate attributeName="cy" values="228;118;228" dur="3.2s" begin="-0.5s" repeatCount="indefinite"/>
+      <circle cx="632" cy="128" r="6" fill="url(#ballCore)">
+        <animate attributeName="cy" values="224;112;224" dur="3.2s" begin="-0.5s" repeatCount="indefinite"/>
         <animate attributeName="cx" values="675;632;675" dur="3.2s" begin="-0.5s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="690" cy="126" r="12" fill="url(#ballGlow)">
-        <animate attributeName="cy" values="228;132;228" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/>
+      <circle cx="690" cy="100" r="12" fill="url(#ballGlow)">
+        <animate attributeName="cy" values="224;96;224" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/>
         <animate attributeName="cx" values="675;690;675" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="690" cy="126" r="6" fill="url(#ballCore)">
-        <animate attributeName="cy" values="228;132;228" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/>
+      <circle cx="690" cy="100" r="6" fill="url(#ballCore)">
+        <animate attributeName="cy" values="224;96;224" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/>
         <animate attributeName="cx" values="675;690;675" dur="3.2s" begin="-1.5s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="742" cy="164" r="12" fill="url(#ballGlow)">
-        <animate attributeName="cy" values="228;124;228" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
+      <circle cx="742" cy="140" r="12" fill="url(#ballGlow)">
+        <animate attributeName="cy" values="224;108;224" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
         <animate attributeName="cx" values="675;748;675" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
       </circle>
-      <circle cx="742" cy="164" r="6" fill="url(#ballCore)">
-        <animate attributeName="cy" values="228;124;228" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
+      <circle cx="742" cy="140" r="6" fill="url(#ballCore)">
+        <animate attributeName="cy" values="224;108;224" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
         <animate attributeName="cx" values="675;748;675" dur="3.2s" begin="-2.4s" repeatCount="indefinite"/>
       </circle>
     </g>
