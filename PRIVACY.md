@@ -25,7 +25,7 @@ If you choose to sign in to Game Center, score submissions are handled entirely 
 
 ## In-App Purchases
 
-Cage Break uses Apple's StoreKit for its optional in-app purchase. Purchase transactions are handled entirely by Apple. We do not process or store payment information.
+Cage Break uses Apple's StoreKit for its optional one-time purchase, **Cage Break Pro**. Purchase transactions and your entitlement are handled entirely by Apple. We do not process, receive, or store any payment information.
 
 ## Children's Privacy
 

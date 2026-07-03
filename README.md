@@ -48,14 +48,19 @@ Five hand-themed worlds, each with its own cast of animals, music, danger, and a
 - Per-difficulty **high scores** saved on device
 - A persistent **Sanctuary** of every animal you've freed
 - **Optional Game Center leaderboards** — one board per world × difficulty
-- Alternate **app icons**, one per rescue world
+- Alternate **app icons**, one per rescue world (Pro)
 - Portrait-only, universal (iPhone + iPad)
 - Fully playable offline — no account, no sign-up
 - Full dark mode
 
-## Premium
+## Cage Break Pro
 
-Cage Break is free to play. All five rescue worlds unlock naturally as you reach score milestones. A one-time in-app purchase unlocks **every rescue world instantly**, so you can jump straight to your favorite biome.
+Cage Break is free to play, and all five rescue worlds unlock naturally as you reach score milestones. **Cage Break Pro** is an optional one-time **$2.99** in-app purchase that:
+
+- **Unlocks every rescue world instantly** — jump straight to your favorite biome, no grinding
+- **Enables the app-icon changer** — pick any of the five rescue-world icons for your Home Screen
+
+Buy once, unlock forever, on all your devices — with **Restore Purchases** if you reinstall or switch devices.
 
 ## Requirements
 

@@ -47,7 +47,16 @@ Cage Break requires iOS 17.0 or later and runs on both iPhone and iPad. It's por
 
 ### Is Cage Break free?
 
-Yes — Cage Break is free to play, and all five rescue worlds unlock as you reach score milestones. A one-time in-app purchase unlocks every rescue world instantly if you'd rather skip straight to a favorite biome.
+Yes — Cage Break is free to play, and all five rescue worlds unlock as you reach score milestones.
+
+### What is Cage Break Pro?
+
+**Cage Break Pro** is an optional one-time **$2.99** in-app purchase that unlocks two things:
+
+- **Every rescue world instantly** — skip straight to any biome instead of unlocking them by score
+- **The app-icon changer** — choose any of the five rescue-world icons for your Home Screen
+
+You can buy Pro from the in-app **Settings** screen. It's a one-time purchase tied to your Apple ID, so **Restore Purchases** (also in Settings) brings it back if you reinstall or play on another device.
 
 ### How do I reset my progress?
 
